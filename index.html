@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Tower Defense</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hud">
+        <h1>Mini Tower Defense</h1>
+        <div class="stats">
+          <span>💰 Gold: <strong id="gold">0</strong></span>
+          <span>❤️ Lives: <strong id="lives">0</strong></span>
+          <span>🌊 Wave: <strong id="wave">0</strong></span>
+        </div>
+        <p class="instructions">
+          Click inside the field to place a tower (cost: 50). Keep enemies from reaching the end of the road.
+        </p>
+      </header>
+
+      <section class="game-shell">
+        <canvas id="game" width="900" height="520"></canvas>
+        <div id="overlay" class="overlay hidden">
+          <h2 id="overlay-title"></h2>
+          <p id="overlay-text"></p>
+          <button id="restart">Restart</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
