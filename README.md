@@ -16,7 +16,7 @@ If you do not have a local computer, you can play directly from GitHub Pages.
 https://<your-github-username>.github.io/<your-repo-name>/
 ```
 
-This repo includes a workflow at `.github/workflows/deploy-pages.yml` that deploys the static site automatically.
+This repo includes a workflow at `.github/workflows/deploy-pages.yml` that deploys the static site automatically. (bump)
 
 ## Run locally
 
